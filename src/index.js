@@ -16,7 +16,7 @@ app.post('/api/v1/signin', (req, res) => {
   const { phone } = req.body
 
   if (!phone) {
-    return res.send(400)
+    return res.status(400).send({ message: 'phone missing' })
   }
 
   const user = getUserData()
