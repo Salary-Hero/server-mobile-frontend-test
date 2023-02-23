@@ -10,20 +10,20 @@ Content-Type: application/json
 ### to get user profile
 GET http://localhost:3000/api/v1/user/profile 
 Content-Type: application/json
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyVWlkIjoiam9obl91aWQiLCJwaG9uZSI6IjA4MDAwMDAwMDAiLCJpYXQiOjE2NzcwODMxNTYsImV4cCI6MTY3NzA4MzMzNn0.gc7dQPJNSPgnT1qj5VVS_4PlWP-fhuxlaQelghI_WwU
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyVWlkIjoiam9obl91aWQiLCJwaG9uZSI6IjA4MDAwMDAwMDAiLCJpYXQiOjE2NzcxMTkzODIsImV4cCI6MTY3NzExOTU2Mn0.BimGTjLici9sDciLtZfSt6MuWQFAq01spZSAzjzX7Y4
 
 
 ### to get user transactions
 GET http://localhost:3000/api/v1/user/transactions 
 Content-Type: application/json
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyVWlkIjoiam9obl91aWQiLCJwaG9uZSI6IjA4MDAwMDAwMDAiLCJpYXQiOjE2NzcwODMxNTYsImV4cCI6MTY3NzA4MzMzNn0.gc7dQPJNSPgnT1qj5VVS_4PlWP-fhuxlaQelghI_WwU
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyVWlkIjoiam9obl91aWQiLCJwaG9uZSI6IjA4MDAwMDAwMDAiLCJpYXQiOjE2NzcxMTkzODIsImV4cCI6MTY3NzExOTU2Mn0.BimGTjLici9sDciLtZfSt6MuWQFAq01spZSAzjzX7Y4
 
 
 ### to make withdraw request
 POST http://localhost:3000/api/v1/user/withdraw
 Content-Type: application/json
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyVWlkIjoiam9obl91aWQiLCJwaG9uZSI6IjA4MDAwMDAwMDAiLCJpYXQiOjE2NzcwODMxNTYsImV4cCI6MTY3NzA4MzMzNn0.gc7dQPJNSPgnT1qj5VVS_4PlWP-fhuxlaQelghI_WwU
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyVWlkIjoiam9obl91aWQiLCJwaG9uZSI6IjA4MDAwMDAwMDAiLCJpYXQiOjE2NzcxMTkzODIsImV4cCI6MTY3NzExOTU2Mn0.BimGTjLici9sDciLtZfSt6MuWQFAq01spZSAzjzX7Y4
 
 {
-    "amount": "20000"
+    "amount": "5000"
 }

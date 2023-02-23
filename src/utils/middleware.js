@@ -30,6 +30,15 @@ const auth = (req, res, next) => {
   next()
 }
 
+const delay = (time = 300) => {
+  return new Promise((resolve, reject) => {
+    setTimeout(() => {
+      resolve()
+    }, time)
+  })
+}
+
 module.exports = {
   auth,
+  delay,
 }
