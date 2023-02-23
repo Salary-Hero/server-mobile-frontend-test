@@ -30,7 +30,9 @@ app.post('/api/v1/signin', async (req, res) => {
 
   await delay(500)
 
-  res.send(token)
+  res.send({
+    data: { phone, token },
+  })
 })
 
 app.use(auth)
